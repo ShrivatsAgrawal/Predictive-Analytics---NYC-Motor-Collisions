@@ -29,10 +29,6 @@ Considering many situations above, will the collisions result in injuries and de
 
 [![Product Name Screen Shot][product-screenshot]](https://anushkasandesara.medium.com/predictive-analytics-on-nyc-collision-data-9f06c94140f2)
 
-Is NYC a secure walking city? Are people frightened of getting hit by cars? Which borough has deadly collisions? Are motorists injured more than cyclists? How many of injuries result in deadly deaths?
-
-Considering many situations above, will the collisions result in injuries and deaths of people? We believe we can reduce injuries and deaths by utilizing the open data available and help users with effective insights beforehand and factors resulting in collisions.
-
 A New York Times [article](https://www.nytimes.com/2021/09/30/nyregion/traffic-deaths-nyc.html) reported that streets in New York have grown more precarious because deaths and fatalities due to traffic collisions have risen 10.5 percent to 8,730 in the first 3 months of 2021 from 7,900 deaths in the same period in 2020. As New York city is home to more than 8 million people and approximately 45 million people visit every year the traffic will surge which can cause more collisions. The objective of this project is to <b>gather insights, perform comprehensive exploratory data analysis to understand the relationship between various features of the dataset and use them to make better machine learning predictive models.</b>
 
 
