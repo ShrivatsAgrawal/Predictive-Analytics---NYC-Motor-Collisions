@@ -157,9 +157,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Shrivats Agrawal - <a href='https://www.linkedin.com/in/shrivats-agrawal/'> LinkedIn </a> - shriv9@seas.upenn.edu <br>
+Anushka Sandesara - <a href='https://www.linkedin.com/in/anushka-sandesara/'>LinkedIn</a> - anu12@seas.upenn.edu <br>
+Dhruvi Modi - <a href='https://www.linkedin.com/in/dhruvi-modi-093a93155/'>LinkedIn</a> - dhruvim@seas.upenn.edu <br>
+Project Link: [https://github.com/ShrivatsAgrawal/Predictive-Analytics---NYC-Motor-Collisions/](https://github.com/ShrivatsAgrawal/Predictive-Analytics---NYC-Motor-Collisions/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -198,4 +199,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url]: https://www.linkedin.com/in/shrivats-agrawal/
 [linkedin-url2]: https://www.linkedin.com/in/anushka-sandesara/
 [linkedin-url3]: https://www.linkedin.com/in/dhruvi-modi-093a93155/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/nyc.png
