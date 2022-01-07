@@ -33,95 +33,39 @@ Considering many situations above, will the collisions result in injuries and de
 
 A New York Times [article](https://www.nytimes.com/2021/09/30/nyregion/traffic-deaths-nyc.html) reported that streets in New York have grown more precarious because deaths and fatalities due to traffic collisions have risen 10.5 percent to 8,730 in the first 3 months of 2021 from 7,900 deaths in the same period in 2020. As New York city is home to more than 8 million people and approximately 45 million people visit every year the traffic will surge which can cause more collisions. The objective of this project is to <b>gather insights, perform comprehensive exploratory data analysis to understand the relationship between various features of the dataset and use them to make better machine learning predictive models.</b>
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Use the `BLANK_README.md` to get started.
+## Built With
+
+Here are the awesome tools we used:
+
+* [Python3](https://www.python.org/download/releases/3.0/)
+* [Matplotlib](https://matplotlib.org/)
+* [Seaborn](https://seaborn.pydata.org/)
+* [Folium](https://python-visualization.github.io/folium/)
+* [Scikit-learn](https://scikit-learn.org/stable/)
+* [Plotly](https://plotly.com/)
+* [Geopandas](https://geopandas.org/en/stable/)
+* [Wordcloud](https://pypi.org/project/wordcloud/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+## Datasets
 
-### Built With
+The [dataset](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) contains information about collisions reported in NYC by the police department. The dataset contains 1.84M rows and 29 columns latest updated as of 7th November. Based on our analysis from the website the dataset contains columns like <b>crash date, time, location, borough, collision id, number of persons injured, number of pedestrians injured, number of pedestrians killed, number of cyclists killed, number of cyclists injured, contributing factors behind the collision, vehicle types and many other relevant features.</b> <br><br>
+Furthermore, we scraped weather data from this [website](https://www.wunderground.com) which contains information on <b>temperature, wind, humidity, windspeed, wind gust, pressure, precipitation and condition.</b>
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+<b> Google Drive <a href = 'https://drive.google.com/drive/folders/1WNSEIY1K3WzlmpFx6l89S3em4XkTiKId?usp=sharing'>Link</a> to Access our Collision Data and Scraped Weather Data </b>
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+[![Roadmap][roadmap]](https://anushkasandesara.medium.com/predictive-analytics-on-nyc-collision-data-9f06c94140f2)
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ShrivatsAgrawal/Predictive-Analytics---NYC-Motor-Collisions/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,15 +87,41 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- CONCLUSION -->
+## Conclusion
+
+New York is sometimes called the biggest collection of villages in the world. This is the reason why this project and the datasets caught our attention. 
+A city that is known for its hustle and bustle also inevitably leads to collisions. 
+With this project we embarked on a journey to uncover the patterns behind these collisions and the factors that might contribute to them. Ultimately we wanted to propose a solution which could help in reducing the number of accidents by suggesting preventive measures.
+
+We started off with the project by collecting the collision data from [Motor Vehicle Collisions - Crashes | NYC Open Data](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and scraping weather information from [Weather Underground](https://www.wunderground.com/). This enabled us to get an overview of the weather conditions at the time of the collision and whether they had an effect in any way.
+
+Next up, the data was wrangled and pre-processed to deal with null values, duplicates and remove columns not offering much information.
+After getting the data into a clean, easy to use format various informative visualizations were made using the data. Some of the examples include Bar Charts for showing the number of collisions with respect to the contributing factors and the different weather conditions, borough wise spread of the collisions, interactive line charts for visualizing how the time of the day had an effect on the number of collisions, 3D movable geo plots for visualizing the collision density on each street in the city and many more.
+
+We derived several useful insights from these visualizations like:
+1. Motorists were most likely to be involved in accidents
+2.  Brooklyn leaded the charts in terms of number of collisions
+3. Driver distractions was the leading cause of collisions
+4.  More than 60% of the accidents occurred when the weather was cloudy
+5. Across all the boroughs more collisions occurred on the weekdays than the weekend and that too  between 8AM and 5PM
 
 
-<!-- LICENSE -->
-## License
+We believe that we were able to uncover many important facts and patterns about the collisions in NYC which will assist in putting preventive measures in place and lead to safer roads.
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+After visualizations and EDA we proceeded on to modeling the dataset with Unsupervised and Supervised learning techniques to be able to draw predictions on whether given the weather conditions and time of the day, are the accidents likely to be severe or not. In other words, whether the accident will result in injuries. 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+We trained the Supervised learning models on the training data. Models used were Logistic Regression model, Random Forest model and Stacking with K-Nearest Neighbor, Decision Tree and Logistic Regression model. Later these trained models were used to make predictions on the test data with an accuracy of around 80%. The dataset had imbalanced labels so we also downsampled our data inorder to attain equal number of 0’s and 1’s in the target variable. On training and predicting the models on this downsampled data, we got an accuracy of around 54%.
 
+With the conclusion of modeling, we were able to build a classifier which can help the authorities put precautionary measures in place to prevent collisions from happening by putting speed, vehicle size restrictions etc. when the likelihood of severe collisions is more.
+
+
+<!-- FUTURE SCOPE -->
+## Future Scope
+
+In this project, we did not have time series geospatial information regarding normal traffic activity. This data can prove to be very useful for charting out routes to avoid collision prone areas. Our future efforts can be directed to obtaining this information and using it to build a guidance system for the average New Yorker for safer road journeys. 
+
+In addition, more information about the people involved in the collision can be used by the authorities to improve their process of issuing driver licenses and changing driver tests.
 
 
 <!-- CONTACT -->
@@ -169,17 +139,9 @@ Project Link: [https://github.com/ShrivatsAgrawal/Predictive-Analytics---NYC-Mot
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
+<b>Our TA and mentor, [Tashweena Heeramun](https://www.linkedin.com/in/tashweena-heeramun-6a4237189/) who constantly provided us with support and guidance.
+ [Prof. Zachary Ives](https://www.cis.upenn.edu/~zives/) for providing us with the concepts we needed to be confident enough to explore different areas in Big Data Analytics to get the best out of this course and project.</b>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -200,3 +162,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url2]: https://www.linkedin.com/in/anushka-sandesara/
 [linkedin-url3]: https://www.linkedin.com/in/dhruvi-modi-093a93155/
 [product-screenshot]: images/nyc.png
+[roadmap]: images/roadmap.png
