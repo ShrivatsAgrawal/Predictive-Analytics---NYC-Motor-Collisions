@@ -131,7 +131,7 @@ Don't forget to give the project a star! Thanks again!
 
 Shrivats Agrawal - <a href='https://www.linkedin.com/in/shrivats-agrawal/'> LinkedIn </a> - shriv9@seas.upenn.edu <br>
 Anushka Sandesara - <a href='https://www.linkedin.com/in/anushka-sandesara/'>LinkedIn</a> - anu12@seas.upenn.edu <br>
-Dhruvi Modi - <a href='https://www.linkedin.com/in/dhruvi-modi-093a93155/'>LinkedIn</a> - dhruvim@seas.upenn.edu <br>
+Dhruvi Modi - <a href='https://www.linkedin.com/in/dhruvi-modi-093a93155/'>LinkedIn</a> - dhruvim@seas.upenn.edu <br><br>
 Project Link: [https://github.com/ShrivatsAgrawal/Predictive-Analytics---NYC-Motor-Collisions/](https://github.com/ShrivatsAgrawal/Predictive-Analytics---NYC-Motor-Collisions/)<br>
 Medium : [Link](https://anushkasandesara.medium.com/predictive-analytics-on-nyc-collision-data-9f06c94140f2)
 <p align="right">(<a href="#top">back to top</a>)</p>
