@@ -10,7 +10,9 @@
 
 <!--[![MIT License][license-shield]][license-url]-->
 
-
+<p align="center">
+  <img src="https://media.giphy.com/media/8uiZLn37DZIXu/giphy.gif" alt="animated" />
+</p>
 
 <!-- MOTIVATION -->
 ## Motivation
